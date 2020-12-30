@@ -12,9 +12,9 @@
 //   return path.join(__dirname, dir)
 // }
 
-// module.exports = {
+module.exports = {
 //   lintOnSave: false, //是否使用 eslint 语法检查
-//   publicPath: './',
+  publicPath: './',
 //   // baseUrl: process.env.NODE_ENV === 'production' ? '/' : '/',
 //   filenameHashing: true,
 //   // 是否使用包含运行时编译器的Vue核心的构建
@@ -155,4 +155,4 @@
 
 //   // 第三方插件配置
 //   pluginOptions: {}
-// }
+}
